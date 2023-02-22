@@ -1,0 +1,75 @@
+.hero-section{
+    height: 500px;
+    background-color: #00A3ED;
+}
+.hero-container{
+    padding: 75px 90px;
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.hero-left-container{
+    font-family: 'Paytone One', sans-serif;
+}
+.hero-left-container h1{
+    color: #7BFAC4;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin: 0 8px;
+}
+
+.hero-left-container h2{
+    color: #E6F4F1;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin:8px 0;
+    font-weight: 400;
+}
+.hero-right-container{
+    width: 40%;
+    position: relative;
+}
+.hero-img{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 100px;
+    position: absolute;
+    left: 61px;
+    top: -151px;
+}
+.hero-img img{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 100%;
+}
+.hero-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.flower{
+    width: 200px;
+    position: absolute;
+    right: 68px;
+    top: 400px;
+    z-index: 3;
+    transform: rotate(30deg);
+}
+.hero-angle{
+    width: 100%;
+    height: 140px;
+    background-color: #7BFAC4;
+    position: relative;
+}
+.hero-angle::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 100% , 100% 0 , 0 0);
+    background-color: #00A3ED;
+}
